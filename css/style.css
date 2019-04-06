@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 1%;
+  width: 500px;
+  max-width: 500px
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+}
+
+.header{
+  text-align: center;
+  background-color:#4CAF50;;
+}
+.cardGroup{
+  max-width: 500px;
+}
+
+#headWrap{
+  width: 100%;
+  margin-top: 5%;
+  min-height: 50px;
+  text-align:center;
+  background:#eee;
+  border:2px dotted #000;
+  border-radius: 2%;
+}
+
+#imageWrap{
+  width: 100%;
+  min-height: 200px;
+  margin-top: 5%;
+  text-align:center;
+  background:#eee;
+  border:2px dotted #000;
+  border-radius: 2%;
+  padding : 2%;
+}
+
+#prgWrap{
+  width: 100%;
+  margin-top: 5%;
+  min-height: 150px;
+  text-align:center;
+  background:#eee;
+  border:2px dotted #000;
+  border-radius: 2%;
+  padding : 2%;
+}
+
+h1.head{
+  border : 1px solid #abc;
+  color:#fff;
+  padding:10px;
+  margin-bottom: 5%;
+}
+
+div.content {
+  margin-left: 500px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+div.content_mini{
+  margin:5px;
+  border: 2px dotted #000;
+  border-radius: 2%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
