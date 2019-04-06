@@ -1,7 +1,7 @@
 $(function() {
-    $( "#paragraph" ).draggable();
-    $( "#head" ).draggable();
-    $( "#image" ).draggable();
+    $( "#paragraph" ).draggable({ revert: true });
+    $( "#head" ).draggable({ revert: true });
+    $( "#image" ).draggable({ revert: true });
 
     $( "#headWrap" ).droppable({
       accept: "#head",
